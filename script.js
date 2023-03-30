@@ -10,8 +10,8 @@ totalCount.innerHTML = count;
 
 // Function to increment count
 const handleIncrement = () => {
-  count++;
 	alert(count)
+  count++;
   totalCount.innerHTML =count;
 };
 incrementBtn.addEventListener("click", handleIncrement);
